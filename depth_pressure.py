@@ -72,7 +72,7 @@ def main():
     aConductivity = 1.888091
     Temp = 25
     Press = 10000
-    print Cond2Sal78(aConductivity, Temp, Press)
+    print(Cond2Sal78(aConductivity, Temp, Press))
     
     
 if __name__ == "__main__":
