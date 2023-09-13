@@ -57,7 +57,7 @@ def main():
     c = 1.888091
     t = 40
     p = 10000
-    print sw_sal78(c, t, p)
+    print(sw_sal78(c, t, p))
 
 
 
