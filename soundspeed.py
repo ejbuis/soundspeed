@@ -114,7 +114,7 @@ def main():
         
     else:
         C = c_chen(13, 34, 250.)
-        print "speed of sound: ", C
+        print("speed of sound: ", C)
         a = np.arange(-0.07, 0.07, 0.01)
         b = np.arange(-1., 1.1, .1)
         d = np.arange(-.2, .21, 0.001)
