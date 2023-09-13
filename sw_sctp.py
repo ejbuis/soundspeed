@@ -62,7 +62,7 @@ def main():
     t = 13
     p = 2500
     S = sw_sal78(c, t, p)
-    print "Salinity ", S
+    print("Salinity ", S)
     
 #    a = np.arange(-0.005, 0.005, 0.0001)
     a = np.arange(-0.15, 0.5, 0.1)
@@ -82,9 +82,7 @@ def main():
     plt.xlabel("conductivity [S/m]")
     plt.ylabel("S/S$_o$ ")
     plt.grid()
-    print x
-    print y
-
+    
     
     x = np.array( [t+i for i in b] )
     y = np.array( [sw_sal78(c, t+i, p) for i in b] )
